@@ -1,0 +1,152 @@
+.container {
+
+    width: 825px;
+    height: 2000px;
+    display: flex;
+    flex-wrap: wrap;
+
+    border: 1px solid black;
+
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around;
+    align-content: space-around; */
+}
+
+
+
+
+.boxes {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#box1 {
+    width: 450px;
+    height: 400px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+#box1_02 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#box2 {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+}
+
+#box2_01 {
+    text-align: right;
+    margin-right: 5px;
+}
+
+#box2_02 {
+    text-align: left;
+
+}
+
+#box3 {
+    width: 780px;
+    height: 400px;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+}
+
+.boxes2 {
+    border: 1px solid black;
+    text-align: left;
+    font-size: 30px;
+}
+
+.section2and3 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section2 {
+    /* width: 400px; */
+    display: flex;
+    flex: 60%;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+
+.section3 {
+    /* width: 400px; */
+    display: flex;
+    flex: 40%;
+    flex-wrap: wrap;
+    /* padding: 20px; */
+}
+
+/* .side {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Main column */
+/* .main {
+    flex: 70%;
+    background-color: white;
+    /* padding: 20px; */
+
+#box4 {
+    width: 400px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#box5 {
+    width: 400px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+
+
+#box6 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#box7 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#box8 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+/* h5 {
+    margin-bottom: 1px;
+    padding: 0;
+} */

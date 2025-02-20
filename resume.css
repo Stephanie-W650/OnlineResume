@@ -1,0 +1,206 @@
+.container {
+
+    width: 845px;
+    height: auto;
+
+    border: 1px solid black;
+    background-color: rgb(255, 255, 240);
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    /* justify-content: space-around;
+    align-content: space-around; */
+}
+
+
+
+
+.boxes {
+    /* border: 1px solid rgb(255, 229, 180); */
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(255, 255, 240);
+
+
+}
+
+#box1 {
+    width: 450px;
+    height: 250px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+#box1_02 {
+    text-align: left;
+    margin-left: 10px;
+}
+
+#box2 {
+    width: 365px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 25px;
+}
+
+#box2_01 {
+    text-align: right;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+#box2_02 {
+    text-align: left;
+
+}
+
+#box3 {
+    width: 820px;
+    height: 250px;
+    text-align: left;
+    margin-left: 5px;
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+}
+
+.boxes2 {
+    /* border: 1px solid black; */
+    text-align: left;
+    font-size: 30px;
+}
+
+
+
+.section2 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+
+
+#box4 {
+    width: 400px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#box5 {
+    width: 400px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.section3 {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+#box6 {
+    width: 300px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+
+
+}
+
+#HL {
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    text-align: right;
+}
+
+#CS {
+    height: 40px;
+    width: 200px;
+    background-color: greenyellow;
+    text-align: right;
+}
+
+#JS {
+    height: 40px;
+    width: 200px;
+    background-color: orange;
+    text-align: right;
+}
+
+#box7 {
+    width: 300px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+#box8 {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    /* border-color: 1px solid black; */
+}
+
+/* h5 {
+    margin-bottom: 1px;
+    padding: 0;
+} */
+
+.boxes #html {
+    /* border: .1px solid; */
+    width: 100px;
+    height: 40px;
+    /* text-align: left; */
+
+    background-color: blue;
+}
+
+.English {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.Chinese {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 33px;
+}
+
+.circle2 {
+    width: 30px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 50%;
+    margin-top: 33px;
+}
